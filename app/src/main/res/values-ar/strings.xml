@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Upload Images</string>
+    <string name="app_name">وزارة البلديات الإقليمية وموارد المياه</string>
+    <string name="download">Download</string>
+    <string name="resume">Resume</string>
+    <string name="refresh">Refresh</string>
+    <string name="refreshing">Refreshing..</string>
+    <string name="canceled">Canceled</string>
+    <string name="finished">Finished</string>
+    <string name="size">Size</string>
+    <string name="key">Key</string>
+    <string name="nothing_found_to_open_file">
+        There\'s nothing that can open this type of file
+    </string>
+    <string name="files_to_be_uploaded">Files to be uploaded:</string>
+    <string name="transfers">التحويلات إلى خادم مركزي :</string>
+    <string name="open">Open</string>
+    <string name="capture_video">التقاط الفيديو</string>
+    <string name="capture_image">التقاط الصور</string>
+    <string name="upload_video">تحميل فيديو</string>
+    <string name="upload_image">تحميل الصور</string>
+    <string name="create_bucket">Create bucket</string>
+    <string name="delete_bucket">Delete bucket</string>
+    <string name="imageView">"@drawable/ic_launcher"</string>
+    <string name="txtserial">رقم تسلسلي</string>
+    <string name="txtministry">وزارة البلديات الإقليمية وموارد المياه</string>
+    <string name="txtcountry">سلطنة عمان</string>
+    <string name="txtdepartment">المديرية العامة للرقابة الصحية و الصرف الصحي</string>
+    <string name="txtdepartment_name">الدائرة : </string>
+    <string name="txtdepartment_date">التاريخ : </string>
+    <string name="pick_date">اختيار تاريخ</string>
+    <string name="edtxtdepartment_date">اختيار تاريخ</string>
+
+    <string name="txt_reqion">المنطقة :</string>
+    <string name="txt_state">الدولة :</string>
+    <string name="txt_violator_name">المخالف :</string>
+    <string name="txt_location">اسم المخالف :</string>
+    <string name="hint_violator_name">اسم</string>
+
+    <string name="txt_activity_type">النشاط :</string>
+    <string name="hint_activity_type">نوع النشاط</string>
+    <string name="txt_license_number">الترخيص:</string>
+    <string name="hint_license_number">عدد</string>
+
+    <string name="txt_violation">الانتهاكات :</string>
+    <string name="hint_txt_violation">ادخل كل انتهاك من خلال إعطاء رقم لكل</string>
+    <string name="hint_edtext_fine_words">في خطابات</string>
+    <string name="txt_wrote_date">كتب في :</string>
+    <string name="hint_edtxt_wrote_date">حدد تاريخ</string>
+    <string name="edtext_fine_value">انتهاك لل قرار وزاري رقم ( ............... )، لذا فقد تقرر فرض غرامة مالية قدرها ( ............. ) أو</string>
+    <string name="txt_recipient_name">إسم المستلم : </string>
+    <string name="hint_recipient_name">اسم</string>
+    <string name="txt_signature_recipient">التوقيع :</string>
+    <string name="txt_wrote_name">اسم محرر المخالفة :</string>
+    <string name="txt_occupation">وظيفته :</string>
+    <string name="txt_signature">التوقيع :</string>
+    <string name="txt_receipt">تم تحصيل الغرامة المقررة بالايصال رقم</string>
+    <string name="txt_receipt_value">(….)</string>
+    <string name="txt_receipt_date">بتاريخ :</string>
+    <string name="txt_fine_number">وسجلت بسجل الغرامات تحت رقم </string>
+
+    <string name="txt_accountant_name">محاسب : </string>
+    <string name="hint_accountant_name">اسم وتوقيع</string>
+    <string name="txt_head_of_department">الرأس:</string>
+    <string name="hint_head_of_department">إدارة</string>
+
+    <string name="txt_note">* في حالة عدم دفع الغرامة خلال شهر من تاريخ تحديد المخالفة سيتم غلق المنشأه لحين الدفع .</string>
+    <string name="txt_stamp">الختم</string>
+
+    <string name="btn_save">حفظ</string>
+    <string name="moveto_camera">بدء تصوير</string>
+    <string name="text_fine_words">المبلغ:</string>
+
+    <string name="txtviolation">مخالفة</string>
+    <string name="close_property">غلق</string>
+    <string name="alarm_violation">إنذار بالمخالفة</string>
+    <string name="laboratory">المخبري</string>
+    <string name="material">مواد</string>
+    <string name="spare">احتياطي</string>
+    <string name="app_exit">خروج</string>
+    <string name="productname">iFront</string>
+    <string name="producttitle">نظام غرامة</string>
+    <string name="title_activity_form">شكل</string>
+    <string name="title_activity_photo_player">معرض الصور</string>
+    <string name="title_activity_video_player">لعب الفيديو</string>
+
+    <string name="action_print">طباعة</string>
+    <string name="action_email">البريد الإلكتروني</string>
+    <string name="action_help">مساعدة</string>
+    <string name="action_exit">خروج</string>
+    <string name="txtreceipt">الموقع</string>
+    <string name="edtext_notice_period_value">يرجى التفضل على دفع الغرامة خلال مدة لا تتجاوز ( ............ ) اليوم \ أيام من تاريخ استلام و إزالة أسباب المخالفة حتى لا تتضاعف الغرامة ، وذلك في حالة عدم الامتثال سيكون الانتهاء من الإجراءات القانونية.</string>
+    <string name="edtext_notice_period_line1">عليه يرجى التكرم بدفع الغرامه المقرره خلال مدة لا تتجاوز</string>
+    <string name="edtext_notice_period_line2"></string>
+    <string name="edtext_notice_period_line2_value">(….)</string>
+    <string name="edtext_notice_period_line2_next">يوم \ ايام من تاريخ الاستلام وإزالة اسباب المخالفة</string>
+    <string name="edtext_notice_period_line3">حتى لا تتضاعف الغرامة . وفي حالة عدم التزامكم بتنفيذ المطلوب سوف يتم إستكمال الاجراءات القانونية</string>
+    <string name="txtsultanate"></string>
+    <string name="txtcountryname">سلطنة عمان</string>
+    <string name="edtext_fine_line1">مخالفا بذالك للقرار الوزاري رقم </string>
+    <string name="edtext_fine_line1_value">(….),</string>
+    <string name="edtext_fine_line2">لذا تقرر فرض غرامة مالية قدها </string>
+    <string name="edtext_fine_line2_value">(.....) ريال عماني</string>
+    <string name="serialno_check">الرجاء حفظ النموذج</string>
+    <string name="txtform_violation">مخالفه</string>
+    <string name="login_inspector">المفتش</string>
+    <string name="login_admin">الاداره</string>
+    <string name="txt_ecopy">التوقيع على النسخه الالكترونيه غير مطلوب</string>
+
+    <string name="txtform_alarm_violation">إنذار بالمخالفة</string>
+    <string name="txt_alarm_offending">الاسم التجاري \ المخالف : </string>
+    <string name="txt_alarm_activity">نوع النشاط : </string>
+    <string name="txt_alarm_license_number">رقم الترخيص : </string>
+    <string name="txt_alarm_notes">الملاحظات : </string>
+    <string name="txt_alarm_actions">الاجراءات الواجب اتخاذها :</string>
+    <string name="txt_alarm_notice_line1">في حالة عدم التزامكم بتنفيذ الاجراءات المذكورة اعلاه خلال</string>
+    <string name="txt_alarm_notice_line2"></string>
+    <string name="txt_alarm_notice_line2_value">( ....)</string>
+    <string name="txt_alarm_notice_line2_next">يوم \ ايام</string>
+    <string name="txt_alarm_notice_line3">فانه سوف يتم اتخاذ اللازم بتحرير مخالفة</string>
+
+    <string name="txt_alarm_recipent_name">اسم المستلم : </string>
+    <string name="txt_alarm_recipent_signature">التوقيع : </string>
+    <string name="txt_alarm_wrote_by">اسم محرر الانذار </string>
+    <string name="txt_alarm_wrote_occupation">وظيفته : </string>
+    <string name="txt_alarm_wrote_signature">التوقيع : </string>
+    <string name="txt_alarm_wrote_receipt_date">تاريخ الاستلام : </string>
+
+    <string name="txt_alarm_original_copy">الاصل : لصاحب العلاقة</string>
+    <string name="txt_alarm_pink_copy">النسخه الوردية : للدائرة</string>
+    <string name="txt_alarm_yellow_copy">النسخه الصفراء : للمختبر</string>
+
+    <string name="txt_close_property">محضر غلق منشأه </string>
+    <string name="txt_close_property_day">انه في يوم : </string>
+    <string name="txt_close_property_date">الموافق : </string>
+
+    <string name="txt_close_property_inspect">تم التفتيش على : </string>
+    <string name="txt_close_property_activity">نوع النشاط :</string>
+    <string name="txt_close_property_location">الموقع :</string>
+    <string name="txt_close_property_license">رقم الترخيص : </string>
+    <string name="txt_close_property_violation">وتلاحظ من خلال التفتيش المخالفات التالية : </string>
+    <string name="txt_close_property_decree">وبناء على القرار الوزاري رقم </string>
+    <string name="txt_close_property_decree_number">( ……..)</string>
+
+    <string name="txt_close_property_notice_line1">فقد تقرر غلق المنشاه لمدة </string>
+    <string name="txt_close_property_notice_line1_value">( ……..)</string>
+    <string name="txt_close_property_notice_line2">يوم \ ايام من تاريخه , ولحين أزالة اسباب المخالفة \ المخالفات وسداد الغرامات المقررة وهي</string>
+    <string name="txt_close_property_notice_line2_value">( ……..)</string>
+
+    <string name="txt_close_property_wrote_in_date">تحريرا في : </string>
+    <string name="txt_close_property_inspector_name">اسم القائم بالتفتيش : </string>
+    <string name="txt_close_property_inspector_occupation">وظيفته : </string>
+    <string name="txt_close_property_inspector_signature">التوقيع : </string>
+    <string name="txt_close_property_recipent_name">اسم المستلم : </string>
+    <string name="txt_close_property_recipent_signature">التوقيع : </string>
+
+    <string name="txt_material_materialtype">نوع المادة</string>
+    <string name="txt_material_packagetype">نوع العبوة </string>
+    <string name="txt_material_number">العدد</string>
+    <string name="txt_material_weight">الوزن</string>
+    <string name="txt_material_reason">السبب</string>
+    <string name="txt_material_notes">ملاحظات</string>
+
+    <string name="txt_material">استمارة تعامل مع مواد</string>
+    <string name="txt_material_trade_name">الاسم التجاري : </string>
+    <string name="txt_material_license_number">رقم الترخيص البلدي : </string>
+    <string name="txt_material_address">العنوان : </string>
+    <string name="txt_material_note">وحرصا على صحة المستهلك فقد تقرر ( ضبط \ اتلاف \ افراج ) للاطناف المذكورة اعلاه وبدون مسؤولية على وزارة البلديات الإقليمية وموارد المياه أو موظفيها بهذا الخصوص .</string>
+
+    <string name="txt_material_employee_name">اسم الموظف المختص  : </string>
+
+    <string name="txt_laboratory">استمارة إرسال عينات مياه للتحليل المخبري</string>
+    <string name="txt_laboratory_sample_data">بيانات مكان سحب العينات</string>
+    <string name="txt_laboratory_trade_name">الاسم التجاري </string>
+    <string name="txt_laboratory_location">الموقع</string>
+    <string name="txt_laboratory_activity">نوع النشاط</string>
+    <string name="txt_laboratory_license_number">رقم الترخيص </string>
+    <string name="txt_laboratory_sample_number">رقم العينة</string>
+
+    <string name="txt_laboratory_sample_time">وقت سحب العينة</string>
+    <string name="txt_laboratory_sample_date">التاريخ</string>
+    <string name="txt_laboratory_sample_send_time">وقت إرسال العينة</string>
+    <string name="txt_laboratory_sample_send_date">التاريخ</string>
+    <string name="title_activity_laboratory">Laboratory</string>
+
+    <string name="txt_laboratory_identification_card">المعلومات الحقلية </string>
+    <string name="txt_laboratory_sample_type">نوع العينة</string>
+
+    <string name="txt_laboratory_sample_source">مصدر العينة</string>
+
+    <string name="txt_laboratory_source_case">حالة المصدر</string>
+
+    <string name="txt_laboratory_weight_size">حجم العينة</string>
+    <string name="txt_laboratory_number_units">عدد الوحدات </string>
+    <string name="txt_laboratory_sources_pollution">مصادر التلوث</string>
+
+    <string name="txt_laboratory_chlorinated">المعالجة بالكلور ( نعم \ لا)</string>
+
+
+    <string name="txt_laboratory_production_date">تاريخ الانتاج \ الانتهاء</string>
+
+    <string name="txt_laboratory_country_company">الشركة المنتجة \ بلد المنشأ</string>
+
+    <string name="txt_laboratory_reason_sampling">سبب أخذ العينة</string>
+
+    <string name="txt_laboratory_person_name_took_sample">إسم القائم بسحب العينة : </string>
+    <string name="action_language">لغة</string>
+    <string name="no_video">لا يوجد فيديو للعب</string>
+    <string name="ic_action_chat">رسالة نصية</string>
+    <string name="ic_action_location_found">الموقع</string>
+
+
+    <string name="client_sub_title1">ceseM الحلول التي</string>
+    <string name="txtdepartment1">العقل السلام</string>
+    <string name="txt_email">البريد الإلكتروني :</string>
+    <string name="txt_mobile">الجوال:</string>
+    <string name="title_activity_getAddress">الموقع الحالي</string>
+</resources>

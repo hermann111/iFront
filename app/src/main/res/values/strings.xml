@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">Upload Images</string>
+    <string name="app_name">MRMWR</string>
+    <string name="download">Download</string>
+    <string name="resume">Resume</string>
+    <string name="refresh">Refresh</string>
+    <string name="refreshing">Refreshing..</string>
+    <string name="canceled">Canceled</string>
+    <string name="finished">Finished</string>
+    <string name="size">Size</string>
+    <string name="key">Key</string>
+    <string name="nothing_found_to_open_file">        There\'s nothing that can open this type of file</string>
+    <string name="files_to_be_uploaded">Files to be uploaded:</string>
+    <string name="transfers">Live transfers to central server:</string>
+    <string name="open">Open</string>
+    <string name="capture_video">Capture Video</string>
+    <string name="capture_image">Capture Image</string>
+    <string name="upload_video">Upload Video</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="create_bucket">Create bucket</string>
+    <string name="delete_bucket">Delete bucket</string>
+    <string name="imageView">"@drawable/logo"</string>
+    <string name="txtserial">Serial No.</string>
+    <string name="txtministry">Ministry of Regional Municipalities and Water Resources</string>
+    <string name="txtministry1">Mesec</string>
+    <string name="txtcountry">Sultanate of Oman</string>
+    <string name="txtsultanate">Sultanate of</string>
+    <string name="txtcountryname">OMAN</string>
+    <string name="txtdepartment">Directorate General of Health Supervision and Sanitation</string>
+    <string name="txtdepartment1">Pleace of Mind</string>
+    <string name="txtform_violation">VIOLATION</string>
+    <string name="txtdepartment_name">Department :</string>
+    <string name="txtdepartment_date">Date :</string>
+    <string name="pick_date">Pick Date</string>
+    <string name="edtxtdepartment_date">enter date</string>
+    <string name="txt_reqion">Region :</string>
+    <string name="txt_state">State :</string>
+    <string name="txt_location">Location :</string>
+    <string name="txt_violator_name">Violator :</string>
+    <string name="hint_violator_name">name</string>
+    <string name="txt_activity_type">Activity :</string>
+    <string name="hint_activity_type">activity type</string>
+    <string name="txt_license_number">License :</string>
+    <string name="hint_license_number">number</string>
+    <string name="txt_violation">Violations :</string>
+    <string name="hint_txt_violation">enter all violation by giving number to each</string>
+    <string name="edtext_fine_line1">Violation of the Ministerial Decree No</string>
+    <string name="edtext_fine_line1_value">(….),</string>
+    <string name="edtext_fine_line2">So it was decided to impose a fine of</string>
+    <string name="edtext_fine_line2_value">(….) OR</string>
+    <string name="text_fine_words">Amount :</string>
+    <string name="hint_edtext_fine_words">in letters</string>
+    <string name="edtext_notice_period_line1">Please kindly upon to pay the fine within a period not</string>
+    <string name="edtext_notice_period_line2">exceeding</string>
+    <string name="edtext_notice_period_line2_value">(….)</string>
+    <string name="edtext_notice_period_line2_next">day/days from the date of </string>
+    <string name="edtext_notice_period_line3">receipt and remove the causes of the offense so as not to multiply the fine, and in the case of non-compliance will be the completion of legal proceedings.</string>
+    <string name="txt_wrote_date">Wrote in :</string>
+    <string name="hint_edtxt_wrote_date">select date</string>
+    <string name="txt_recipient_name">Recipient\'s :</string>
+    <string name="hint_recipient_name">name</string>
+    <string name="txt_signature_recipient">Signature :</string>
+    <string name="txt_wrote_name">Wrote :</string>
+    <string name="txt_occupation">Occupation :</string>
+    <string name="txt_signature">Signature :</string>
+    <string name="txt_receipt">Was collected prescribed fine receipt number</string>
+    <string name="txt_receipt_value">(….)</string>
+    <string name="txt_receipt_date">Date :</string>
+    <string name="txt_fine_number">Fine number :</string>
+    <string name="txt_accountant_name">Accountant :</string>
+    <string name="hint_accountant_name">name and signature</string>
+    <string name="txt_head_of_department">Head :</string>
+    <string name="hint_head_of_department">of Department</string>
+    <string name="txt_note">* If you do not pay the fine within two months from the date of the offense the place will be close .</string>
+    <string name="txt_stamp">Stamp</string>
+    <string name="txt_ecopy">eCopy Signature not required</string>
+    <string name="btn_save">Save</string>
+    <string name="moveto_camera">Start Camera</string>
+    <string name="txtviolation">Violation</string>
+    <string name="close_property">Close Property</string>
+    <string name="alarm_violation">Alarm Violation</string>
+    <string name="laboratory">Laboratory</string>
+    <string name="material">Material</string>
+    <string name="spare">Spare</string>
+    <string name="app_exit">Exit</string>
+    <string name="title_activity_result_list_detail">ResultListDetail</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_detail_result_list">DetailResultList</string>
+    <string name="action_search">Search</string>
+    <string name="action_location_found">Found</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_testing">Testing</string>
+    <string name="title_activity_video">Video</string>
+    <string name="description">Media Controls</string>
+    <string name="title_activity_photo">Photo</string>
+    <string name="title_activity_listing">Listing</string>
+    <string name="title_activity_adminstrator">Adminstrator</string>
+    <string name="product_title">iFRONT</string>
+    <string name="product_sub_title">Challan System</string>
+    <string name="client_title">Ministry</string>
+    <string name="client_sub_title">Regional Municipalities and Water Resources</string>
+    <string name="client_sub_title1">MESEC IT Solutions</string>
+    <string name="productname">iFront</string>
+    <string name="producttitle">Fine System</string>
+    <string name="title_activity_form">MRMWR Form</string>
+    <string name="title_activity_photo_player">Photo Gallery</string>
+    <string name="title_activity_video_player">Video Play</string>
+    <string name="login_inspector">Inspector</string>
+    <string name="login_admin">Admin</string>
+    <string name="action_print">Print</string>
+    <string name="action_email">Email</string>
+    <string name="action_help">Help</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_language">Language</string>
+    <string name="txtreceipt">Location</string>
+
+
+    <string name="no_geocoder_available">No geocoder available</string>
+    <string name="fetch_address">Fetch address</string>
+    <string name="address_found">Address found</string>
+    <string name="no_address_found">Sorry, no address found</string>
+    <string name="no_location_data_provided">No location data provided</string>
+    <string name="service_not_available">Sorry, the service is not available</string>
+    <string name="invalid_lat_long_used">Invalid latitude or longitude used</string>
+    <string name="serialno_check">Please save the form</string>
+
+    <string name="txtform_alarm_violation">Violation Alert</string>
+    <string name="txt_alarm_offending">Trade name / offending :</string>
+    <string name="txt_alarm_activity">Type of activity</string>
+    <string name="txt_alarm_license_number">License number</string>
+    <string name="txt_alarm_notes">Notes:</string>
+    <string name="txt_alarm_actions">Actions to be taken:</string>
+    <string name="txt_alarm_notice_line1">In the case of non-compliance with the implementation</string>
+    <string name="txt_alarm_notice_line2">of the above procedures during</string>
+    <string name="txt_alarm_notice_line2_value">( ....)</string>
+    <string name="txt_alarm_notice_line2_next">day\ days, </string>
+    <string name="txt_alarm_notice_line3">it will be necessary to take the liberalization of the offense.</string>
+
+    <string name="txt_alarm_recipent_name">The recipient\'s name :</string>
+    <string name="txt_alarm_recipent_signature">Signature :</string>
+    <string name="txt_alarm_wrote_by">Alarm wrote by : </string>
+    <string name="txt_alarm_wrote_occupation">Occupation : </string>
+    <string name="txt_alarm_wrote_signature">Signature :</string>
+    <string name="txt_alarm_wrote_receipt_date">Date of receipt : </string>
+    <string name="title_activity_alarm_violation">AlarmViolation</string>
+
+    <string name="txt_alarm_original_copy">Original : The applicant</string>
+    <string name="txt_alarm_pink_copy">Pink copy : Department </string>
+    <string name="txt_alarm_yellow_copy">Yellow copy : MRMWR Lab</string>
+
+    <string name="txt_close_property">MRMWR Order to Close Shop</string>
+    <string name="txt_close_property_day">Day :</string>
+    <string name="txt_close_property_date">Date :</string>
+
+    <string name="txt_close_property_inspect">We inspect :</string>
+    <string name="txt_close_property_activity">Type of activity :</string>
+    <string name="txt_close_property_location">Location :</string>
+    <string name="txt_close_property_license">License number :</string>
+    <string name="txt_close_property_violation">We noted of the following violations during inspections  :</string>
+    <string name="txt_close_property_decree">Based on the Ministerial Decree No</string>
+    <string name="txt_close_property_decree_number">( ……..)</string>
+
+    <string name="txt_close_property_notice_line1">we decided to close the facility for the next</string>
+    <string name="txt_close_property_notice_line1_value">( ……..)</string>
+    <string name="txt_close_property_notice_line2">day \ days from this date , Until the removal of the causes of the violation and pay the fines which is :</string>
+    <string name="txt_close_property_notice_line2_value">( ……..)</string>
+
+    <string name="txt_close_property_wrote_in_date">Wrote in :</string>
+    <string name="txt_close_property_inspector_name">Inspector name :</string>
+    <string name="txt_close_property_inspector_occupation">Occupation :</string>
+    <string name="txt_close_property_inspector_signature">Signature :</string>
+    <string name="txt_close_property_recipent_name">Recipient\'s name :</string>
+    <string name="txt_close_property_recipent_signature">Signature :</string>
+    <string name="title_activity_close_property">CloseProperty</string>
+
+    <string name="txt_material_materialtype">Material Type</string>
+    <string name="txt_material_packagetype">Package Type</string>
+    <string name="txt_material_number">Number</string>
+    <string name="txt_material_weight">Weight</string>
+    <string name="txt_material_reason">Reason</string>
+    <string name="txt_material_notes">Notes</string>
+    <string name="title_activity_material">Material</string>
+
+
+    <string name="txt_material">Material Inspection</string>
+    <string name="txt_material_trade_name">Trade Name :</string>
+    <string name="txt_material_license_number">Municipal Licensing number :</string>
+    <string name="txt_material_address"> Address :</string>
+    <string name="txt_material_note"> interest of  consumers\' health, it was decided (adjust \/ damaging \/ release) the products mentioned in the table without incurring the Ministry of Regional Municipalities and Water Resources any responsibility .</string>
+
+    <string name="txt_material_employee_name">Employee name : </string>
+
+    <string name="txt_laboratory">Samples for Lab Testing</string>
+    <string name="txt_laboratory_sample_data">Place sampling data</string>
+    <string name="txt_laboratory_trade_name">Trade Name</string>
+    <string name="txt_laboratory_location">Location</string>
+    <string name="txt_laboratory_activity">Type of activity</string>
+    <string name="txt_laboratory_license_number">License number</string>
+    <string name="txt_laboratory_sample_time">Time of sampling</string>
+    <string name="txt_laboratory_sample_date">Date</string>
+    <string name="txt_laboratory_sample_send_time">Time to send the sample</string>
+    <string name="txt_laboratory_sample_send_date">Date</string>
+    <string name="title_activity_laboratory">Laboratory</string>
+
+    <string name="txt_laboratory_identification_card">Identification Card</string>
+    <string name="txt_laboratory_information">Information</string>
+    <string name="txt_laboratory_sample1">Sample 1</string>
+    <string name="txt_laboratory_sample2">Sample 2</string>
+    <string name="txt_laboratory_sample_type">Type of sample</string>
+    <string name="txt_laboratory_sample_number">Number of sample</string>
+    <string name="txt_laboratory_product_name">Product name</string>
+    <string name="txt_laboratory_manufacturer">Manufacturer</string>
+    <string name="txt_laboratory_made_in">Made in(place)</string>
+
+    <string name="txt_laboratory_weight_size">Weight /\ size of sample</string>
+    <string name="txt_laboratory_number_units">Number of units</string>
+    <string name="txt_laboratory_storage_requirement">Storage Requirements</string>
+    <string name="txt_laboratory_require_cooling">Does not require /\ cooling /\ (freeze)</string>
+    <string name="txt_laboratory_reason_sampling">Reason for sampling</string>
+    <string name="txt_laboratory_person_name_took_sample">Person name who pulls the sample :</string>
+
+    <string name="txt_laboratory_sample_source">Sample Source</string>
+    <string name="txt_laboratory_source_case">Source Case</string>
+    <string name="txt_laboratory_sources_pollution">Sources of pollution</string>
+    <string name="txt_laboratory_chlorinated">Chlorinated (yes/no) </string>
+    <string name="txt_laboratory_production_date">Production date /\ completed</string>
+    <string name="txt_laboratory_country_company">Producing Company\/Country of origion</string>
+
+    <string name="no_video">No Video to Play</string>
+    <string name="ic_action_chat">Sms</string>
+    <string name="title_activity_test_problem">TestProblem</string>
+    <string name="title_activity_test_two">TestTwo</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="ic_action_location_found">Location</string>
+
+    <string name="app_name1">MESEC</string>
+    <string name="title_activity_form1">MESEC Form</string>
+    <string name="txt_alarm_yellow_copy1">Yellow copy : MESEC Lab</string>
+    <string name="txt_close_property1">MESEC Order to Close Shop</string>
+
+    <string name="txt_email">Email :</string>
+    <string name="txt_mobile">Mobile :</string>
+    <string name="title_activity_getAddress">Current Location</string>
+    <string name="title_activity_show_image">ShowImage</string>
+    <string name="ip_camera">Remote Monitoring</string>
+    <string name="title_ip_camera">IP Camera</string>
+    <string name="title_region">Region</string>
+    <string name="pizzahut">Pizza Hut</string>
+    <string name="kfc">KFC</string>
+    <string name="title_batinah_region">Batinah</string>
+    <string name="close">Close</string>
+    <string name="dialog_no_internet">Dialog No Internet Available</string>
+    <string name="dialog_title_no_internet">MRMWR</string>
+</resources>
+

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".12"
+        android:background="@drawable/gradient_bg"/>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-45dp"
+        android:paddingLeft="35dp"
+        android:src="@drawable/logo_admin_small" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/productname"
+        style="@style/customproductsubstyle"
+        android:gravity="center"
+        android:layout_marginTop="-30dp"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/producttitle"
+        android:layout_marginTop="-10dp"
+        style="@style/buttontextstyle"
+        android:gravity="center"
+        android:textIsSelectable="false" />
+
+    <LinearLayout
+        android:id="@+id/imagevideoContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="90">
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/buttontextboldstyle"
+        android:text="@string/transfers" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+        <LinearLayout android:id="@+id/transfers_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" />
+    </ScrollView>
+</LinearLayout>
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10">
+
+         <LinearLayout
+            android:orientation="horizontal" android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+            <LinearLayout
+                android:orientation="vertical" android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:layout_weight="50"
+                >
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/image_capture"
+                    android:layout_weight="50"
+                    android:layout_gravity="center"
+                    android:src="@drawable/capture_image_state"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/buttontextstyle"
+                    android:text="@string/capture_image"
+                    android:id="@+id/textView2"
+                    android:gravity="center" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical" android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:layout_weight="50"
+                >
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/video_capture"
+                    android:src="@drawable/capture_video_state"
+                    android:layout_weight="50"/>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/buttontextstyle"
+                    android:text="@string/capture_video"
+                    android:id="@+id/textView3"
+                    android:gravity="center" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal" android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+            <LinearLayout
+                android:orientation="vertical" android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:layout_weight="50"
+                >
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/image_select"
+                    android:layout_weight="50"
+                    android:layout_gravity="center"
+                    android:src="@drawable/select_image_state"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/buttontextstyle"
+                    android:text="@string/upload_image"
+                    android:id="@+id/textView4"
+                    android:gravity="center" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical" android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:layout_weight="50"
+                >
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/video_select"
+                    android:src="@drawable/select_video_state" android:layout_weight="50"/>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/buttontextstyle"
+                    android:text="@string/upload_video"
+                    android:id="@+id/textView5"
+                    android:gravity="center" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+        </LinearLayout>
+</LinearLayout>

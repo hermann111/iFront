@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.middleeast.uploadimage" >
+
+    <permission
+        android:name="com.middleeast.uploadimage.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="com.middleeast.uploadimage.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <!--
+ The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but are recommended.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/CustomActionBarTheme"
+        android:windowSoftInputMode="adjustResize" >
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeScreen"
+            android:label="@string/app_name"
+            android:parentActivityName=".Adminstrator" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.middleeast.uploadimage.Adminstrator" />
+
+            <intent-filter>
+                <action android:name="com.middleeast.uploadimage.HOMESCREEN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ViolationScreenActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".HomeScreen" >
+            <intent-filter>
+                <action android:name="com.middleeast.uploadimage.VIOLATIONSCREENACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".BatinahRegion"
+            android:label="@string/title_batinah_region"
+            android:parentActivityName=".Region" >
+            <intent-filter>
+                <action android:name="com.middleeast.uploadimage.BATINAHREGION" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ImageVideoActivity"
+            android:label="@string/txt_violation"
+            android:parentActivityName=".ViolationScreenActivity" >
+            <intent-filter>
+                <action android:name="com.middleeast.uploadimage.IMAGEVIDEOACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Adminstrator"
+            android:label="@string/login_admin"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="com.middleeast.uploadimage.ADMINISTRATOR" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CustomizedListView"
+            android:label="@string/app_name"
+            android:parentActivityName=".Adminstrator" >
+            <intent-filter>
+                <action android:name="com.middleeast.uploadimage.CUSTOMIZEDLISTVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Form"
+            android:label="@string/title_activity_form"
+            android:parentActivityName=".CustomizedListView" >
+        </activity>
+        <activity
+            android:name=".PhotoPlayerActivity"
+            android:label="@string/title_activity_photo_player"
+            android:parentActivityName=".Form" >
+            <intent-filter>
+                <action android:name="com.middleeast.uploadimage.PHOTOPLAYERACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".VideoPlayerActivity"
+            android:label="@string/title_activity_video_player"
+            android:screenOrientation="landscape"
+            android:parentActivityName=".Form" >
+            <intent-filter>
+                <action android:name="com.middleeast.uploadimage.VIDEOPLAYERACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CurrentLocation"
+            android:label="@string/title_activity_video_player"
+            android:parentActivityName=".HomeScreen" >
+            <intent-filter>
+                <action android:name="com.middleeast.uploadimage.CURRENTLOCATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".network.NetworkService"
+            android:exported="false" />
+
+        <!--
+        Service to asynchronously fetch a location address using a Geocoder. Setting the
+        android:exported attribute to "false" stops other apps from starting this
+        service, even when using an explicit intent.
+        -->
+        <service
+            android:name=".FetchAddressIntentService"
+            android:exported="false" />
+        <service
+            android:name=".FetchImageIntentService"
+            android:exported="false" />
+
+        <activity
+            android:name=".AlarmViolation"
+            android:label="@string/alarm_violation"
+            android:parentActivityName=".HomeScreen" >
+            <intent-filter>
+                <action android:name="com.middleeast.uploadimage.ALARMVIOLATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.middleeast.uploadimage.HomeScreen" />
+        </activity>
+        <activity
+            android:name=".CloseProperty"
+            android:label="@string/close_property"
+            android:parentActivityName=".HomeScreen" >
+            <intent-filter>
+                <action android:name="com.middleeast.uploadimage.CLOSEPROPERTY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.middleeast.uploadimage.HomeScreen" />
+        </activity>
+        <activity
+            android:name=".Material"
+            android:label="@string/material"
+            android:parentActivityName=".HomeScreen" >
+            <intent-filter>
+                <action android:name="com.middleeast.uploadimage.MATERIAL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.middleeast.uploadimage.HomeScreen" />
+        </activity>
+        <activity
+            android:name=".Laboratory"
+            android:label="@string/laboratory"
+            android:parentActivityName=".HomeScreen" >
+            <intent-filter>
+                <action android:name="com.middleeast.uploadimage.LABORATORY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.middleeast.uploadimage.HomeScreen" />
+        </activity>
+        <activity
+            android:name=".GetAddress"
+            android:label="@string/title_activity_getAddress"
+            android:screenOrientation="landscape"
+            android:parentActivityName=".HomeScreen" >
+            <intent-filter>
+                <action android:name="com.middleeast.uploadimage.GETADDRESS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.middleeast.uploadimage.HomeScreen" />
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".ShowImage"
+            android:label="@string/title_activity_show_image" >
+        </activity>
+
+        <activity
+            android:name=".IPCameraPlayer"
+            android:label="@string/title_ip_camera"
+            android:screenOrientation="landscape"
+            android:parentActivityName=".BatinahRegion">
+        </activity>
+
+        <activity
+            android:name=".Region"
+            android:label="@string/title_region"
+            android:parentActivityName=".HomeScreen">
+        </activity>
+
+        <activity
+            android:name=".PhotoPlayerGlide"
+            android:label="@string/title_activity_photo_player"
+            android:parentActivityName=".Form" >
+        </activity>
+
+    </application>
+
+</manifest>
