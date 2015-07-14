@@ -54,6 +54,7 @@ import java.util.Locale;
 import java.util.UUID;
 
 // Testing Version Control
+//Testing comment from Android Studio
 public class Adminstrator extends Activity implements CustomModalDialogFragment.NoticeDialogListener {
     AdminControllerView controller;
     TelephonyManager telephonyManager;
